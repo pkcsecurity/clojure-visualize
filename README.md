@@ -8,7 +8,7 @@ Right now, the set-up is not very easy because this was not a major feature duri
 - Open src/visualize/core.clj and change the project-path to the path of your desired project
 - Run lein repl -> (-main)
 - This generates a visualize.json at the [project-path].
-- Copy the visualize.json and move it to web/ directory in your clojure-visualize directory.
+- Copy the visualize.json and move it to web/ directory in your clojure-visualize directory. I added a default visualize (of the SEEK project) for demoing purposes.
 - Start a simpleHTTPServer from the web/ directory using pythons SimpleHTTPServer.
 - Navigate to http://127.0.0.1:8000/ or whatever your default server is located at.
 - Enjoy!
